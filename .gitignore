@@ -1,0 +1,32 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+arjuna-animal-welfare-59bf3-d8e35a6abbfc.json
+arjuna-animal-welfare-59bf3-firebase-adminsdk-fbsvc-a48bf86a1e.json
+service-account.json
+firebase.js
+Firestore Rules
+tokens.json
+
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?

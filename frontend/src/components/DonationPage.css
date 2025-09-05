@@ -1,0 +1,192 @@
+/* Page Background */
+.donation-page {
+  min-height: 100vh;
+  background-color: #0A1A1F; /* Deep Navy */
+  color: #F5F5F5; /* Soft White */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem;
+}
+
+
+/* 🌟 Glassmorphism Donation Card */
+.donation-card {
+  width: 100%;
+  max-width: 500px;
+  padding: 2rem;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  color: #fff;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.donation-card:hover {
+    box-shadow: 0 8px 32px rgba(235, 197, 7, 0.4);
+}
+
+
+/* Headings */
+.donation-card h2 {
+  font-size: 1.75rem;
+  font-weight: bold;
+  text-align: center;
+  color: #D4AF37; /* Golden Beige */
+  margin-bottom: 1rem;
+}
+
+.donation-card p {
+  text-align: center;
+  color: #A0A0A0; /* Muted Grey */
+  margin-bottom: 1.5rem;
+}
+
+/* QR Section */
+.qr-section {
+  background-color: #0F1F25;
+  border-radius: 1rem;
+  padding: 1rem;
+  text-align: center;
+}
+
+.qr-section img {
+  width: 200px;
+  height: 200px;
+  border-radius: 0.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.qr-section p {
+  margin: 0.25rem 0;
+  font-size: 0.85rem;
+}
+
+/* Donation Details */
+.donation-details {
+  margin-top: 1.5rem;
+  background-color: #0F1F25;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+.donation-details h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #D4AF37;
+  margin-bottom: 0.5rem;
+}
+
+.donation-details p {
+  font-size: 0.9rem;
+  margin: 0.25rem 0;
+  color: #F5F5F5;
+}
+
+.donation-details span {
+  color: #A0A0A0;
+}
+
+/* Input Fields */
+.donation-details input[type="text"],
+.donation-details input[type="email"],
+.donation-details input[type="tel"],
+.donation-details input[type="number"] {
+  margin-top: 0.4rem;
+  padding: 0.65rem 0.9rem;
+  border-radius: 0.7rem;
+  background: rgba(255, 255, 255, 0.08);
+  color: #F5F5F5;
+  border: 1px solid rgba(212, 175, 55, 0.4); /* Golden glow */
+  font-size: 0.95rem;
+  width: 100%;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+.donation-details input:focus {
+  border-color: #D4AF37;
+  box-shadow: 0 0 8px rgba(212, 175, 55, 0.6);
+  background: rgba(255, 255, 255, 0.12);
+}
+
+/* Placeholder styling */
+.donation-details input::placeholder {
+  color: #B0B0B0;
+  font-style: italic;
+}
+
+/* File Upload */
+input[type="file"] {
+  padding: 0.4rem;
+  border-radius: 0.6rem;
+  background: rgba(255, 255, 255, 0.08);
+  color: #F5F5F5;
+  border: 1px dashed rgba(212, 175, 55, 0.4);
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  width: 100%;
+}
+
+input[type="file"]:hover {
+  border-color: #D4AF37;
+  background: rgba(255, 255, 255, 0.12);
+}
+
+
+/* Upload Proof */
+.upload-section {
+  margin-top: 1.5rem;
+}
+
+.upload-section label {
+  display: block;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #D4AF37;
+  margin-bottom: 0.5rem;
+}
+
+/* Buttons */
+.button-row {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1.5rem;
+}
+
+.button-row button {
+  padding: 0.6rem 1.2rem;
+  border-radius: 0.8rem;
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* Back button */
+.button-back {
+  background-color: #11232A;
+  border: 1px solid #A0A0A0;
+  color: #F5F5F5;
+}
+
+.button-back:hover {
+  background-color: #1A2F3A;
+}
+
+/* Donate button */
+.button-donate {
+  background-color: #2E7D32;
+  color: #fff;
+  border: none;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+}
+
+.button-donate:hover {
+  background-color: #1E6C26;
+}

@@ -1,0 +1,71 @@
+.adoption {
+  background: linear-gradient(135deg, #fff 0%, rgba(240, 200, 120, 0.1) 100%);
+}
+
+.adoption-circle-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 2rem;
+  justify-items: center;
+  margin-top: 2rem;
+}
+
+.animal-circle {
+  text-align: center;
+  padding: 1rem;
+  border-radius: 20px;
+ 
+  transition: all 0.3s ease;
+}
+
+.circle-image-container {
+  position: relative;
+  width: 180px;
+  height: 180px;
+  margin: 0 auto 1rem;
+}
+
+.circle-image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.status-tag {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  font-size: 0.75rem;
+  font-weight: bold;
+  color: white;
+  padding: 0.4rem 0.7rem;
+  border-radius: 12px;
+}
+
+.animal-circle h3 {
+  font-size: 1.25rem;
+  margin-bottom: 0.2rem;
+  color: #1a2a42;
+}
+
+.animal-meta {
+  color: #b18c5a;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.animal-description {
+  color: #666;
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+
+
+
+@media (max-width: 768px) {
+  .circle-image-container {
+    width: 150px;
+    height: 150px;
+  }
+}
