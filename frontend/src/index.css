@@ -23,7 +23,7 @@
 }
 
 body {
-  font-family: 'Pacifico', cursive, 'Open Sans', sans-serif;
+  font-family: 'Pacifico', 'Open Sans', sans-serif;
   line-height: 1.6;
   color: var(--primary-navy);
   background-color: var(--pure-white);
