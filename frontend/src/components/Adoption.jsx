@@ -7,7 +7,8 @@ const Adoption = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch("http://localhost:5000/api/animals") // ✅ backend endpoint
+   fetch("https://arjunawelfare.onrender.com/api/animals")
+ // ✅ backend endpoint
       .then((res) => res.json())
       .then((data) => {
         console.log("Animals from API:", data.animals); // ✅ Debug log
