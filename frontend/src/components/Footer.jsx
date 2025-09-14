@@ -101,16 +101,26 @@ const Footer = () => {
         </div>
 
         <motion.div
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
-          transition={{ duration: 0.6, delay: 0.6 }}
-          viewport={{ once: true }}
-          className="footer-bottom"
-        >
-          <p className="copyright">
-            © 2025 Arjuna Animal Welfare Foundation. Made with <Heart className="heart-icon" /> for animals in need.
-          </p>
-        </motion.div>
+  initial={{ opacity: 0 }}
+  whileInView={{ opacity: 1 }}
+  transition={{ duration: 0.6, delay: 0.6 }}
+  viewport={{ once: true }}
+  className="footer-bottom"
+>
+  <p className="copyright">
+    © 2025 Arjuna Animal Welfare Foundation. Made with{" "}
+    <Heart className="heart-icon" /> for animals in need by{" "}
+    <a
+      href="https://github.com/dya8"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="github-link"
+    >
+      @dya8
+    </a>
+  </p>
+</motion.div>
+
       </div>
     </footer>
   );
