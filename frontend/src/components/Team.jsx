@@ -10,12 +10,13 @@ const Team = () => {
     image: "Kavya.jpg", // replace with Kavya's photo
     description: "A lawyer and full-time animal rescuer since 2010, Kavya has rescued 100+ dogs and actively fights animal cruelty through legal action. She focuses on vaccination, sterilization, and providing a safe haven for abandoned dogs."
   },
-  {
+ /* {
     name: "Priya Stephen",
     role: "Co-Director",
     image: "Priya.jpg", // replace with co-founder’s photo
     description: "A certified dog behaviourist with extensive rescue experience, she has nurtured 30+ rescued dogs. Partnering with Kavya since 2023, she helps rescue abandoned and abused dogs and ensures their rehabilitation."
   }
+    */
 ];
 
 
